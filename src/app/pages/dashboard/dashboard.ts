@@ -11,4 +11,8 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class Dashboard {}
+export class Dashboard {
+  constructor(){
+    console.log('Dashboard component initialized');
+  }
+}

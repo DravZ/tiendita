@@ -1,34 +1,58 @@
-
-
-<div class="flex min-h-screen">
+<div class="flex min-h-screen bg-[#0f1117] text-gray-100">
 
     <!-- Sidebar -->
-    <aside class="w-64 bg-indigo-700 text-white p-6 hidden md:block">
+    <aside class="w-72 bg-[#151922]/90 backdrop-blur-md border-r border-slate-800 p-6">
 
-        <h1 class="text-2xl font-bold mb-10">
-            🛒 Mi Tiendita
+        <h1 class="text-2xl font-semibold tracking-wide mb-10">
+            Mi Tiendita
         </h1>
 
-        <nav class="space-y-4">
+        <nav class="space-y-3">
 
-            <a href="#" class="block p-3 rounded-lg hover:bg-indigo-600 transition">
-                🏠 Inicio
+            <a class="flex items-center p-4 rounded-xl
+            bg-gradient-to-r from-indigo-500/20 to-cyan-500/20
+            border border-indigo-500/20
+            hover:scale-105
+            transition-all duration-300 cursor-pointer">
+
+                <span>Dashboard</span>
+
             </a>
 
-            <a href="#" class="block p-3 rounded-lg hover:bg-indigo-600 transition">
-                📦 Productos
+            <a class="flex items-center p-4 rounded-xl text-gray-400
+            hover:bg-slate-800 hover:text-white
+            hover:translate-x-2
+            transition-all duration-300 cursor-pointer">
+
+                Productos
+
             </a>
 
-            <a href="#" class="block p-3 rounded-lg hover:bg-indigo-600 transition">
-                💰 Ventas
+            <a class="flex items-center p-4 rounded-xl text-gray-400
+            hover:bg-slate-800 hover:text-white
+            hover:translate-x-2
+            transition-all duration-300 cursor-pointer">
+
+                Ventas
+
             </a>
 
-            <a href="#" class="block p-3 rounded-lg hover:bg-indigo-600 transition">
-                👥 Clientes
+            <a class="flex items-center p-4 rounded-xl text-gray-400
+            hover:bg-slate-800 hover:text-white
+            hover:translate-x-2
+            transition-all duration-300 cursor-pointer">
+
+                Clientes
+
             </a>
 
-            <a href="#" class="block p-3 rounded-lg hover:bg-red-500 transition mt-10">
-                🚪 Cerrar sesión
+            <a class="flex items-center p-4 rounded-xl text-gray-400
+            hover:bg-slate-800 hover:text-white
+            hover:translate-x-2
+            transition-all duration-300 cursor-pointer">
+
+                Reportes
+
             </a>
 
         </nav>
@@ -36,32 +60,46 @@
     </aside>
 
 
-    <!-- Contenido -->
-    <main class="flex-1 p-8">
+
+    <!-- Main -->
+
+    <main class="flex-1 p-10">
 
         <!-- Header -->
-        <div class="flex justify-between items-center mb-8">
+
+        <div class="flex justify-between items-center mb-10">
 
             <div>
-                <h2 class="text-3xl font-bold text-gray-800">
+
+                <h2 class="text-4xl font-bold bg-gradient-to-r from-white to-slate-400 bg-clip-text text-transparent">
                     Dashboard
                 </h2>
 
-                <p class="text-gray-500">
-                    Bienvenido de nuevo 👋
+                <p class="text-gray-500 mt-2">
+                    Resumen general del negocio
                 </p>
+
             </div>
 
-            <div class="flex items-center gap-4">
+            <div class="flex gap-4 items-center">
 
                 <input
                 type="text"
                 placeholder="Buscar..."
-                class="p-2 rounded-lg border focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                class="bg-[#1a1d27]
+                border border-slate-700
+                rounded-xl
+                px-4 py-3
+                focus:outline-none
+                focus:border-cyan-400
+                focus:shadow-[0_0_20px_rgba(34,211,238,0.25)]
+                transition-all duration-300"
+                >
 
                 <img
                 src="https://i.pravatar.cc/50"
-                class="rounded-full w-12 h-12">
+                class="w-12 h-12 rounded-full border-2 border-cyan-500/50 hover:rotate-12 transition duration-300"
+                >
 
             </div>
 
@@ -69,157 +107,182 @@
 
 
         <!-- Cards -->
+
         <div class="grid md:grid-cols-3 gap-6 mb-8">
 
-            <div class="bg-white p-6 rounded-2xl shadow">
 
-                <div class="flex justify-between">
+            <div class="bg-[#151922]
+            border border-slate-800
+            rounded-3xl
+            p-6
+            hover:-translate-y-2
+            hover:shadow-[0_0_30px_rgba(59,130,246,.2)]
+            transition-all duration-500">
 
-                    <div>
-                        <p class="text-gray-500">
-                            Ventas Hoy
-                        </p>
+                <p class="text-gray-500 text-sm">
+                    Ventas Hoy
+                </p>
 
-                        <h3 class="text-3xl font-bold">
-                            $2,350
-                        </h3>
-                    </div>
+                <h3 class="text-4xl font-bold mt-3">
+                    $2,350
+                </h3>
 
-                    <span class="text-4xl">
-                        💵
-                    </span>
-
-                </div>
-
-            </div>
-
-
-            <div class="bg-white p-6 rounded-2xl shadow">
-
-                <div class="flex justify-between">
-
-                    <div>
-                        <p class="text-gray-500">
-                            Productos
-                        </p>
-
-                        <h3 class="text-3xl font-bold">
-                            245
-                        </h3>
-                    </div>
-
-                    <span class="text-4xl">
-                        📦
-                    </span>
-
-                </div>
+                <p class="text-cyan-400 mt-4 text-sm">
+                    +12% crecimiento
+                </p>
 
             </div>
 
 
-            <div class="bg-white p-6 rounded-2xl shadow">
 
-                <div class="flex justify-between">
+            <div class="bg-[#151922]
+            border border-slate-800
+            rounded-3xl
+            p-6
+            hover:-translate-y-2
+            hover:shadow-[0_0_30px_rgba(139,92,246,.2)]
+            transition-all duration-500">
 
-                    <div>
-                        <p class="text-gray-500">
-                            Clientes
-                        </p>
+                <p class="text-gray-500 text-sm">
+                    Productos
+                </p>
 
-                        <h3 class="text-3xl font-bold">
-                            81
-                        </h3>
-                    </div>
+                <h3 class="text-4xl font-bold mt-3">
+                    245
+                </h3>
 
-                    <span class="text-4xl">
-                        👥
-                    </span>
+                <p class="text-purple-400 mt-4 text-sm">
+                    Inventario activo
+                </p>
 
-                </div>
+            </div>
+
+
+            <div class="bg-[#151922]
+            border border-slate-800
+            rounded-3xl
+            p-6
+            hover:-translate-y-2
+            hover:shadow-[0_0_30px_rgba(16,185,129,.2)]
+            transition-all duration-500">
+
+                <p class="text-gray-500 text-sm">
+                    Clientes
+                </p>
+
+                <h3 class="text-4xl font-bold mt-3">
+                    81
+                </h3>
+
+                <p class="text-emerald-400 mt-4 text-sm">
+                    +8 nuevos
+                </p>
 
             </div>
 
         </div>
 
 
+
         <!-- Tabla -->
-        <div class="bg-white rounded-2xl shadow p-6">
 
-            <div class="flex justify-between mb-4">
+        <div class="bg-[#151922]
+        rounded-3xl
+        border border-slate-800
+        overflow-hidden">
 
-                <h3 class="font-bold text-xl">
+            <div class="flex justify-between p-6 border-b border-slate-800">
+
+                <h3 class="font-semibold text-lg">
                     Productos recientes
                 </h3>
 
-                <button class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700">
-                    + Agregar
+                <button
+                class="px-5 py-3
+                rounded-xl
+                bg-gradient-to-r from-indigo-600 to-cyan-500
+                hover:scale-105
+                hover:shadow-[0_0_20px_rgba(59,130,246,.4)]
+                transition-all duration-300">
+
+                    Agregar
+
                 </button>
 
             </div>
 
-            <div class="overflow-x-auto">
 
-                <table class="w-full">
+            <table class="w-full">
 
-                    <thead>
+                <thead class="text-gray-500">
 
-                        <tr class="border-b text-left text-gray-500">
+                    <tr>
 
-                            <th class="pb-3">Producto</th>
-                            <th class="pb-3">Precio</th>
-                            <th class="pb-3">Stock</th>
-                            <th class="pb-3">Estado</th>
+                        <th class="p-5 text-left">Producto</th>
+                        <th class="p-5 text-left">Precio</th>
+                        <th class="p-5 text-left">Stock</th>
+                        <th class="p-5 text-left">Estado</th>
 
-                        </tr>
+                    </tr>
 
-                    </thead>
+                </thead>
 
-                    <tbody class="space-y-2">
 
-                        <tr class="border-b">
+                <tbody>
 
-                            <td class="py-4">Coca Cola 600ml</td>
-                            <td>$18</td>
-                            <td>35</td>
-                            <td>
-                                <span class="bg-green-100 text-green-600 px-3 py-1 rounded-full">
-                                    Disponible
-                                </span>
-                            </td>
+                    <tr class="border-t border-slate-800 hover:bg-slate-800/30 transition">
 
-                        </tr>
+                        <td class="p-5">Coca Cola</td>
+                        <td>$18</td>
+                        <td>35</td>
 
-                        <tr class="border-b">
+                        <td>
 
-                            <td class="py-4">Sabritas</td>
-                            <td>$20</td>
-                            <td>10</td>
-                            <td>
-                                <span class="bg-yellow-100 text-yellow-600 px-3 py-1 rounded-full">
-                                    Bajo stock
-                                </span>
-                            </td>
+                            <span class="px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-400">
+                                Disponible
+                            </span>
 
-                        </tr>
+                        </td>
 
-                        <tr>
+                    </tr>
 
-                            <td class="py-4">Galletas Oreo</td>
-                            <td>$15</td>
-                            <td>0</td>
-                            <td>
-                                <span class="bg-red-100 text-red-600 px-3 py-1 rounded-full">
-                                    Agotado
-                                </span>
-                            </td>
 
-                        </tr>
+                    <tr class="border-t border-slate-800 hover:bg-slate-800/30 transition">
 
-                    </tbody>
+                        <td class="p-5">Sabritas</td>
+                        <td>$20</td>
+                        <td>10</td>
 
-                </table>
+                        <td>
 
-            </div>
+                            <span class="px-3 py-1 rounded-full bg-yellow-500/20 text-yellow-400">
+                                Bajo stock
+                            </span>
+
+                        </td>
+
+                    </tr>
+
+
+                    <tr class="border-t border-slate-800 hover:bg-slate-800/30 transition">
+
+                        <td class="p-5">Oreo</td>
+                        <td>$15</td>
+                        <td>0</td>
+
+                        <td>
+
+                            <span class="px-3 py-1 rounded-full bg-red-500/20 text-red-400">
+                                Agotado
+                            </span>
+
+                        </td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
 
         </div>
 
