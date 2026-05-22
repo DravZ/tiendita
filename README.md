@@ -121,7 +121,7 @@ src/
 ├── index.html
 ├── main.ts
 └── styles.css
-```
+
 
 ---
 
