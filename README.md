@@ -102,6 +102,7 @@ Ejemplos de uso:
 
 ## Estructura del proyecto
 
+```plaintext
 src/
 │
 ├── app/
@@ -121,6 +122,7 @@ src/
 ├── index.html
 ├── main.ts
 └── styles.css
+```
 
 
 ---
