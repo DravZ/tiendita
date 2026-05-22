@@ -1,59 +1,168 @@
-# Tiendita
+# [Tiendita]
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.5.
+## Descripción
 
-## Development server
+Aplicación web desarrollada con Angular y Tailwind CSS diseñada para proporcionar una interfaz moderna, responsiva y eficiente para la gestión y administración de información. El sistema busca ofrecer una experiencia de usuario intuitiva mediante un diseño limpio, componentes reutilizables y una estructura organizada que facilite el mantenimiento y escalabilidad del proyecto.
 
-To start a local development server, run:
+El objetivo principal del proyecto es centralizar y simplificar las operaciones del sistema mediante una interfaz moderna y adaptable a distintos dispositivos.
+
+---
+
+## Características o funcionalidades
+
+- Dashboard interactivo
+- Diseño responsivo adaptable a dispositivos móviles y escritorio
+- Interfaz moderna con Tailwind CSS
+- Componentes reutilizables
+
+---
+
+## Tecnologías utilizadas
+
+- Angular
+- TypeScript
+- Tailwind CSS
+- HTML5
+- Node.js
+- npm
+
+---
+
+## Requisitos previos
+
+Antes de ejecutar el proyecto es necesario tener instalado:
+
+- Node.js 
+- npm
+- Angular CLI
+
+Para verificar las versiones:
+
+```bash
+node -v
+npm -v
+ng version
+```
+
+---
+
+## Instalación
+
+Clonar el repositorio:
+
+```bash
+git clone https://github.com/DravZ/tiendita.git
+```
+
+Entrar al directorio del proyecto:
+
+```bash
+cd nombre-proyecto
+```
+
+Instalar dependencias:
+
+```bash
+npm install
+```
+
+---
+
+## Ejecución del proyecto
+
+Para iniciar el servidor de desarrollo:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+o:
 
 ```bash
-ng generate component component-name
+npm start
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Una vez ejecutado, abrir el navegador en:
 
 ```bash
-ng generate --help
+http://localhost:4200
 ```
 
-## Building
+---
 
-To build the project run:
+## Uso
+
+Al iniciar el sistema, el usuario podrá acceder a las diferentes funcionalidades mediante la interfaz principal.
+
+Ejemplos de uso:
+
+- Acceder al dashboard principal
+- Visualizar datos y estadísticas
+---
+
+## Estructura del proyecto
+
+src/
+│
+├── app/
+│   ├── auth/
+│   ├── components/
+│   ├── guards/
+│   ├── interfaces/
+│   ├── pages/
+│   │    └── dashboard/
+│   │         ├── dashboard.html
+│   │         └── dashboard.ts
+│   ├── pipes/
+│   ├── services/
+│   ├── shared/
+│   └── validators/
+│
+├── index.html
+├── main.ts
+└── styles.css
+```
+
+---
+
+## Contribución
+
+Para contribuir al proyecto:
+
+1. Realizar un fork del repositorio
+2. Crear una nueva rama
 
 ```bash
-ng build
+git checkout -b nueva-funcionalidad
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+3. Realizar los cambios necesarios
+4. Confirmar cambios
 
 ```bash
-ng test
+git commit -m "Se agregó nueva funcionalidad"
 ```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+5. Subir cambios
 
 ```bash
-ng e2e
+git push origin nueva-funcionalidad
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+6. Crear un Pull Request
 
-## Additional Resources
+---
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Autor o contacto
+
+Desarrollado por:
+
+**[DravZ]**
+
+Correo:
+
+**[cdgo345@gmail.com]**
+
+GitHub:
+
+**https://github.com/DravZ**
