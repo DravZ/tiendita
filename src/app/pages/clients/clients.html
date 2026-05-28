@@ -1,0 +1,63 @@
+<div class="min-h-screen bg-[#0f1117] text-gray-100">
+  <div class="max-w-7xl mx-auto p-10">
+    <div class="flex flex-col gap-4 md:flex-row md:items-end md:justify-between mb-8">
+      <div>
+        <h2 class="text-4xl font-bold bg-linear-to-r from-white to-slate-400 bg-clip-text text-transparent">
+          Clientes
+        </h2>
+        <p class="text-gray-500 mt-2 max-w-2xl">
+          Revisa la lista de clientes y su estado.
+        </p>
+      </div>
+    </div>
+
+    <div class="bg-[#151922] rounded-3xl border border-slate-800 overflow-hidden">
+      <div class="p-6 border-b border-slate-800">
+        <h3 class="font-semibold text-lg">Tabla de clientes</h3>
+        <p class="text-gray-500 text-sm mt-1">Datos recientes de contactos, correos y estado de relación.</p>
+      </div>
+
+      <table class="w-full text-left">
+        <thead class="bg-[#151922] text-gray-400 uppercase text-xs tracking-wider">
+          <tr>
+            <th class="px-6 py-4">Cliente</th>
+            <th class="px-6 py-4">Correo</th>
+            <th class="px-6 py-4">Teléfono</th>
+            <th class="px-6 py-4">Última compra</th>
+            <th class="px-6 py-4">Estado</th>
+          </tr>
+        </thead>
+        <tbody class="bg-[#0f1117] divide-y divide-slate-800 text-sm text-gray-200">
+          <tr class="hover:bg-slate-800/40 transition-all duration-300">
+            <td class="px-6 py-5">Ana Pérez</td>
+            <td class="px-6 py-5">ana.perez@mail.com</td>
+            <td class="px-6 py-5">+52 55 1234 5678</td>
+            <td class="px-6 py-5">Hace 2 días</td>
+            <td class="px-6 py-5"><span class="rounded-full bg-emerald-500/20 px-3 py-1 text-emerald-300">Activo</span></td>
+          </tr>
+          <tr class="hover:bg-slate-800/40 transition-all duration-300">
+            <td class="px-6 py-5">Luis Hernández</td>
+            <td class="px-6 py-5">luis.h@mail.com</td>
+            <td class="px-6 py-5">+52 55 8765 4321</td>
+            <td class="px-6 py-5">Hace 5 días</td>
+            <td class="px-6 py-5"><span class="rounded-full bg-yellow-500/20 px-3 py-1 text-yellow-300">Revisar</span></td>
+          </tr>
+          <tr class="hover:bg-slate-800/40 transition-all duration-300">
+            <td class="px-6 py-5">María López</td>
+            <td class="px-6 py-5">maria.lopez@mail.com</td>
+            <td class="px-6 py-5">+52 55 9988 7766</td>
+            <td class="px-6 py-5">Hace 1 semana</td>
+            <td class="px-6 py-5"><span class="rounded-full bg-slate-700/70 px-3 py-1 text-slate-200">Inactivo</span></td>
+          </tr>
+          <tr class="hover:bg-slate-800/40 transition-all duration-300">
+            <td class="px-6 py-5">Carlos Rivera</td>
+            <td class="px-6 py-5">carlos.r@mail.com</td>
+            <td class="px-6 py-5">+52 55 3344 2211</td>
+            <td class="px-6 py-5">Hoy</td>
+            <td class="px-6 py-5"><span class="rounded-full bg-emerald-500/20 px-3 py-1 text-emerald-300">Activo</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
