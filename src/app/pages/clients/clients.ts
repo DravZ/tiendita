@@ -1,11 +1,10 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-form',
+  selector: 'app-clients',
   standalone: true,
   imports: [],
-  templateUrl: './form.html',
+  templateUrl: './clients.html',
   styles: `
     :host {
       display: block;
@@ -13,10 +12,4 @@ import { Router } from '@angular/router';
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class Form {
-  constructor(private router: Router) {}
-
-  close(): void {
-    this.router.navigate(['/products']);
-  }
-}
+export class Clients {}
